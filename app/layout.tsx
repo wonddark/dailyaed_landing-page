@@ -9,7 +9,7 @@ const interSans = Inter({
 const poppinsSans = Poppins({
   variable: "--font-poppins-sans",
   subsets: ["latin"],
-  weight: "300",
+  weight: ["300", "700"],
 });
 
 export const metadata: Metadata = {
@@ -23,7 +23,7 @@ export default function RootLayout(props: Readonly<LayoutProps<"/">>) {
       <body
         className={
           `${interSans.variable} ${poppinsSans.variable} antialiased` +
-          "bg-bg text-body"
+          " bg-bg text-body font-sans"
         }
       >
         {props.children}
