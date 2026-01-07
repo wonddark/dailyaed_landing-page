@@ -3,14 +3,46 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --font-sans: var(--font-inter-sans);
-  --font-mono: var(--font-poppins-sans);
+    --font-sans: var(--font-inter-sans);
+    --font-mono: var(--font-poppins-sans);
+    --color-primary: var(--primary);
+    --color-primary-contrast: var(--primary-contrast);
+    --color-primary-hover: var(--primary-hover);
+    --color-accent: var(--accent);
+    --color-muted: var(--muted);
+    --color-bg: var(--bg);
+    --color-card-bg: var(--card-bg);
+    --color-gaining: var(--gaining);
+    --color-loosing: var(--loosing);
+    --color-body: var(--body);
+    --color-body2: var(--body2);
+    --color-input-border: var(--input-border);
 }
 
 :root {
+    --primary: #135D00;
+    --primary-contrast: #FFFFFF;
+    --primary-hover: #0F4A00;
+    --accent: #C6A75E;
+    --muted: #9CA3AF;
+    --bg: #F9FAFB;
+    --card-bg: #FFFFFF;
+    --gaining: #135D00;
+    --loosing: #590000;
+    --body: #1E1E1E;
+    --body2: #6B7280;
+    --input-border: #D1D5DB;
 }
 
 .dark {
+    --muted: #4B6B61;
+    --bg: #081C15;
+    --card-bg: #0F2A21;
+    --gaining: #4ADE80;
+    --loosing: #FF6B6B;
+    --body: #FFFFFF;
+    --body2: #A7C7BB;
+    --input-border: #1F3A30;
 }
 
 @layer base {
