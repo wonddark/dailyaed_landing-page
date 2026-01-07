@@ -19,6 +19,9 @@ export const metadata: Metadata = {
     " require any accounting knowledge and simplifies all the complexities to" +
     " the minimum. Just input your income and expenses and the app will give" +
     " you a fast and automatic profit calculation.",
+  openGraph: {
+    images: ["/hero-desktop.png"],
+  },
 };
 
 export default function RootLayout(props: Readonly<LayoutProps<"/">>) {
