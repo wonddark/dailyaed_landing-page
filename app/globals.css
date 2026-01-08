@@ -17,6 +17,7 @@
     --color-body: var(--body);
     --color-body2: var(--body2);
     --color-input-border: var(--input-border);
+    --color-divider: var(--divider);
 }
 
 :root {
@@ -32,6 +33,7 @@
     --body: #1E1E1E;
     --body2: #6B7280;
     --input-border: #D1D5DB;
+    --divider: #E5E7EB;
 }
 
 .dark {
@@ -43,6 +45,7 @@
     --body: #FFFFFF;
     --body2: #A7C7BB;
     --input-border: #1F3A30;
+    --divider: #1A3B30;
 }
 
 @layer base {
